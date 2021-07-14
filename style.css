@@ -14,15 +14,15 @@ header {
 /*---------------------------------
           navigation area style
 ----------------------------------*/
-label{
-     margin: 10px 0 52px 16px;
-     font-size: 26px;
-     line-height: 70px;
-     display: none;
- }
- #toggle{
-     display: none;
- }
+label {
+  margin: 10px 0 52px 16px;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+}
+#toggle {
+  display: none;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -46,19 +46,17 @@ nav li a {
   color: #fff;
   padding: 10px 24px;
   background-color: #e02c6d;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-.log-in-button:hover{
+.log-in-button:hover {
   border-radius: 20px;
-  transform: translate(-10px,0) scale(1.1);
+  transform: translate(-10px, 0) scale(1.1);
 }
 .log-in-button a {
   margin-left: 8px;
   color: #ffffff;
   text-decoration: none;
 }
-
-
 
 /*---------------------------------
           banner-area styles
@@ -88,19 +86,19 @@ nav li a {
   width: 168px;
   color: #fff;
   background-color: #e02c6d;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-.watch-live-button:hover{
-    border-radius: 20px;
-    transform: translate(15px,0);
+.watch-live-button:hover {
+  border-radius: 20px;
+  transform: translate(15px, 0);
 }
 .watch-live-button a {
   text-decoration: none;
   color: #fff;
   margin-right: 8px;
 }
-.watch-live-button:hover i{
-  transform: translate(5px,0);
+.watch-live-button:hover i {
+  transform: translate(5px, 0);
 }
 
 /* --------------------------------
@@ -158,6 +156,7 @@ footer {
   align-items: center;
   margin-bottom: 63px;
 }
+
 .social-icons {
   display: flex;
   justify-content: center;
@@ -190,135 +189,123 @@ footer {
 /*  -------------------------
       match schedule styles 
      ------------------------*/
-.match-schedule-container{
+.match-schedule-container {
   background-color: #151c35c9;
   padding: 50px;
   margin-bottom: 60px;
 }
-.container-title{
+.container-title {
   width: 400px;
   display: flex;
   justify-content: space-between;
-  align-items:center;
- 
+  align-items: center;
 }
-.container-title h1{
+.container-title h1 {
   color: #fff;
   font-size: 52px;
   margin-top: 0;
   margin-bottom: 50px;
-   
 }
 
-.container-title a{
-  color:rgb(182,38,61) ;
+.container-title a {
+  color: rgb(182, 38, 61);
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 8px;
 }
-.container-title i{
-  color:rgb(182,38,61) ;
+.container-title i {
+  color: rgb(182, 38, 61);
   cursor: pointer;
 }
-.container-title >a:hover + i{
-  transform: translate(5px,0);
+.container-title > a:hover + i {
+  transform: translate(5px, 0);
 }
-.matches{
+.matches {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  
+  grid-template-columns: repeat(3, 1fr);
+
   color: #fff;
 }
-.versus{
+.versus {
   font-size: 20px;
   font-weight: bolder;
 }
 
-.match{
+.match {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 20px;
   padding: 20px;
-  box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.match h2{
+.match h2 {
   font-size: 32px;
-font-weight: bold;
-
+  font-weight: bold;
 }
 .clubs {
   display: flex;
   align-items: center;
 }
-.club-name{
+.club-name {
   font-size: 20px;
   text-align: center;
   font-family: helvetica;
 }
-hr{
+hr {
   width: 200px;
   border: 3px solid gray;
   margin: 0 20px;
 }
-.venue-name-and-time{
+.venue-name-and-time {
   display: block;
   text-align: center;
 }
-
 
 /*--------------------------------
    player comment section style
   ----- -------------------------*/
 
-.player-comment{
+.player-comment {
   background-image: url(images/football-player.png);
   background-size: 50%;
   background-repeat: no-repeat;
   height: 600px;
 }
- .comment{
-     margin: 10% 0 0 50%;
- }
- .comment span{
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 14px;
-   font-weight: 700;
-   color: gray;
- }
- .comment h1{
-   color: rgb(168, 91, 36);
-   font-size: 50px;
-   margin-top: 0;
-
- }
- .comment p{
-   color: #808080;
-   font-size: 16px;
-   margin-bottom: 30px;
- }
- .comment a{
-   color: #fff;
-   padding: 10px 20px;
-   background-color: #D02134;
-   text-decoration: none;
- }
-
-
-
-
+.comment {
+  margin: 10% 0 0 50%;
+}
+.comment span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: gray;
+}
+.comment h1 {
+  color: rgb(168, 91, 36);
+  font-size: 50px;
+  margin-top: 0;
+}
+.comment p {
+  color: #808080;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.comment a {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #d02134;
+  text-decoration: none;
+}
 
 /*--------------------------------
    medai quaries for mobile devices
   ----- -------------------------*/
 
 @media only screen and (max-width: 668px) {
-
-
-
-
-
   /* player list styles  */
 
   .player-list {
@@ -330,78 +317,80 @@ hr{
   }
   .player {
     margin: 12px 15px;
-   
-    
   }
 
   /* banner-area style  */
 
-  header{
-       width: 100%;
+  header {
+    width: 100%;
   }
   .banner-area {
-
     display: flex;
     flex-direction: column;
-    margin-bottom:0;  
+    margin-bottom: 0;
   }
   .banner-title {
-  margin-left: 20px; 
-}
-  .banner-title h1 {
-  font-size: 32px;
-}
-  .banner-photo {
-    margin: 50px 15px 60px 15px;  
+    margin-left: 20px;
   }
-  .banner-photo img{
+  .banner-title h1 {
+    font-size: 32px;
+  }
+  .banner-photo {
+    margin: 50px 15px 60px 15px;
+  }
+  .banner-photo img {
     margin: 0;
     width: 100%;
   }
 
-  nav{display: none;}
+  nav {
+    display: none;
+  }
 
   /* match schedule styles  */
 
-.match-schedule-container{
-  width: 100%;
-  padding: 0;
-  
-}
-.container-title h1{
-  margin: 20px;
-  
-}
-.container-title i{
-  margin-right: 10px;
-}
-.matches{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  color: #fff;
-}
-.match{
-  margin: 20px;
-}
+  .match-schedule-container {
+    width: 100%;
+    padding: 0;
+  }
+  .container-title h1 {
+    margin: 20px;
+  }
+  .container-title i {
+    margin-right: 10px;
+  }
+  .matches {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    color: #fff;
+  }
+  .match {
+    margin: 20px;
+  }
 
   /* player comment media quaries */
 
+  .player-comment {
+    background-repeat: no-repeat;
+    height: 350px;
+  }
 
-  .player-comment{
-  background-repeat: no-repeat;
-  height: 350px;
-}
- 
- .comment span{;
-   font-size: 12px;
- }
- .comment h1{
-   font-size: 24px;
- }
- .comment p{
-   font-size: 12px;
- }
+  .comment span {
+    font-size: 12px;
+  }
+  .comment h1 {
+    font-size: 24px;
+  }
+  .comment p {
+    font-size: 12px;
+  }
 
+ footer img {
+
+    width: 150px;
+    height: 30px;
+    
+  }
 }
 
 /*--------------------------------
@@ -409,12 +398,10 @@ hr{
   ----- -------------------------*/
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-
-  nav{
-  display: none;
-}
+  nav {
+    display: none;
+  }
   /* player list styles  */
-
 
   .player-list {
     display: grid;
@@ -425,59 +412,51 @@ hr{
   .player {
     margin-bottom: 24px;
   }
-  header{
-       width:100%;
+  header {
+    width: 100%;
   }
   .banner-area {
     display: flex;
     flex-direction: column;
-    margin-bottom:0; 
+    margin-bottom: 0;
   }
   .banner-title {
-  margin-left: 20px; 
-}
-  .banner-title h1 {
-  color: #fff;
-  font-size: 36px; 
-  margin-top: 60px;
-}
-.watch-live-button{
-    
-    margin: 60px auto;
-}
-  .banner-photo {
-   margin: 50px 0;
-    
+    margin-left: 20px;
   }
-  .banner-photo img{
+  .banner-title h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-top: 60px;
+  }
+  .watch-live-button {
+    margin: 60px auto;
+  }
+  .banner-photo {
+    margin: 50px 0;
+  }
+  .banner-photo img {
     margin: 0;
   }
 
- 
-
-
   /* match schedule styels  */
 
-  .match-schedule-container{
-  width: 100%;
-  padding: 0;
-  
-}
-.container-title h1{
-  margin: 40px;
-  
-}
-.container-title i{
-  margin-right: 10px;
-}
-.matches{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  justify-content: center;
-  align-items: center;
-}
-.match{
-  margin: 20px;
-}
-
+  .match-schedule-container {
+    width: 100%;
+    padding: 0;
+  }
+  .container-title h1 {
+    margin: 40px;
+  }
+  .container-title i {
+    margin-right: 10px;
+  }
+  .matches {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .match {
+    margin: 20px;
+  }
 }

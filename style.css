@@ -28,10 +28,11 @@ label {
   font-size: 26px;
   line-height: 70px;
   display: none;
+  
 }
 
 #toggle {
-  display: none;
+ display: none;
 }
 
 nav {
@@ -58,6 +59,7 @@ nav li a {
 }
 
 .log-in-button {
+  display: flex;
   color: #fff;
   padding: 10px 24px;
   background-color: #e02c6d;
@@ -265,53 +267,8 @@ hr {
   display: block;
   text-align: center;
 }
-
-/*--------------------------------
-   player comment section style
-  ----- -------------------------*/
-
-.player-comment {
-
-  background-image: url(images/football-player.png);
-  background-size: 36%;
-  background-position: 160px 0;
-  background-repeat: no-repeat;
-
-
-}
-
-.comment {
-  margin: 10% 0 0 50%;
-}
-
-.comment span {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: gray;
-}
-
-.comment h1 {
-  color: rgb(168, 91, 36);
-  font-size: 50px;
-  margin-top: 0;
-}
-
-.comment p {
-  color: #808080;
-  font-size: 16px;
-  margin-bottom: 30px;
-}
-
-.comment a {
-  color: #fff;
-  padding: 10px 20px;
-  background-color: #d02134;
-  text-decoration: none;
-}
-
 /*----------------------- 
-    highlights styles
+    highlights maches styles
 ----------------------- */
 
 .highlights {
@@ -338,6 +295,52 @@ hr {
   height: 427px;
   margin-top: 20px;
 }
+
+/*--------------------------------
+   Club information section style
+  ----- -------------------------*/
+
+.club-info {
+
+  background-image: url(images/football-player.png);
+  background-size: 36%;
+  background-position: 160px 0;
+  background-repeat: no-repeat;
+
+
+}
+
+.info {
+  margin: 10% 0 0 50%;
+}
+
+.info span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: gray;
+}
+
+.info h1 {
+  color: rgb(168, 91, 36);
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.info p {
+  color: #808080;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.info a {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #d02134;
+  text-decoration: none;
+}
+
+
 
 /*----------------------- 
      footer area styels
@@ -391,9 +394,6 @@ footer {
 
 @media only screen and (max-width: 668px) {
 
-  nav {
-    display: none;
-  }
 
 
   /* banner-area style for mobile devices */
@@ -491,24 +491,24 @@ footer {
     margin-top: 30px;
   }
 
-  /* player comment media quaries for mobile devices */
+  /* Club information media quaries for mobile devices */
 
-  .player-comment {
+  .club-info {
     background-size: 60%;
     background-position: -10px 40px;
     background-repeat: no-repeat;
     height: 350px;
   }
 
-  .comment span {
+  .info span {
     font-size: 12px;
   }
 
-  .comment h1 {
+  .info h1 {
     font-size: 24px;
   }
 
-  .comment p {
+  .info p {
     font-size: 12px;
   }
 
@@ -531,9 +531,6 @@ footer {
 @media only screen and (min-width: 688px) and (max-width: 992px) {
 
 
-  nav {
-    display: none;
-  }
 
   /* player list styles for tablet devices  */
 
@@ -634,24 +631,24 @@ footer {
   }
 
 
-  /* player comment media quaries for tablet devices */
+  /* Club information media quaries for tablet devices */
 
-  .player-comment {
+  .club-info {
     background-size: 40%;
     background-position: 65px 40px;
     background-repeat: no-repeat;
     height: 350px;
   }
 
-  .comment span {
+  .info span {
     font-size: 12px;
   }
 
-  .comment h1 {
+  .info h1 {
     font-size: 24px;
   }
 
-  .comment p {
+  .info p {
     font-size: 12px;
   }
 }

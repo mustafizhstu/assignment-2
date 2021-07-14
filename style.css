@@ -11,6 +11,15 @@ header {
   justify-content: center;
   background-color: #2d25a0;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 65px;
+
+}
+
 /*---------------------------------
           navigation area style
 ----------------------------------*/
@@ -20,9 +29,11 @@ label {
   line-height: 70px;
   display: none;
 }
+
 #toggle {
   display: none;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -30,37 +41,46 @@ nav {
   text-decoration: none;
   margin: 45px 60px;
 }
+
 nav ul {
   display: flex;
   list-style-type: none;
 }
+
 nav li {
   margin-right: 36px;
 }
+
 nav li a {
   font-size: 16px;
   text-decoration: none;
   color: #fff;
 }
+
 .log-in-button {
   color: #fff;
   padding: 10px 24px;
   background-color: #e02c6d;
   transition: all 0.5s ease-in-out;
 }
+
 .log-in-button:hover {
   border-radius: 20px;
   transform: translate(-10px, 0) scale(1.1);
 }
+
 .log-in-button a {
   margin-left: 8px;
   color: #ffffff;
   text-decoration: none;
 }
 
+
 /*---------------------------------
           banner-area styles
 ----------------------------------*/
+
+
 .banner-area {
   display: grid;
   grid-template-columns: 485px 556px;
@@ -69,15 +89,18 @@ nav li a {
   align-items: center;
   margin-bottom: 86px;
 }
+
 .banner-title {
   display: flex;
   flex-direction: column;
   margin-left: 80px;
 }
+
 .banner-title h1 {
   color: #fff;
   font-size: 64px;
 }
+
 .watch-button {
   display: flex;
   justify-content: center;
@@ -88,21 +111,24 @@ nav li a {
   background-color: #e02c6d;
   transition: all 0.5s ease-in-out;
 }
+
 .watch-button:hover {
   border-radius: 20px;
   transform: translate(15px, 0);
 }
+
 .watch-button a {
   text-decoration: none;
   color: #fff;
   margin-right: 8px;
 }
+
 .watch-button:hover i {
   transform: translate(5px, 0);
 }
 
 /* --------------------------------
-
+       player list styles
 -------------------------------*/
 
 .container {
@@ -110,14 +136,15 @@ nav li a {
   flex-direction: column;
   align-items: center;
 }
+
 .player-list {
   display: grid;
   grid-template-columns: repeat(3, 330px);
   grid-template-rows: repeat(4, 474px);
   grid-gap: 27px 30px;
-  margin-top: 70px;
   margin-bottom: 100px;
 }
+
 .player {
   display: flex;
   flex-direction: column;
@@ -126,26 +153,28 @@ nav li a {
   background: #ffffff;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
 }
+
 .player-photo {
   width: 300px;
   height: 256px;
 }
+
 .player-details {
   margin: 16px 0 33px 0;
 }
+
 .player-name h2 {
   font-size: 28px;
   line-height: 40px;
   margin: 0;
 }
+
 .about-player p {
   color: #6c6c6c;
   font-size: 16px;
   line-height: 26px;
   margin: 0;
 }
-
-
 
 /*  -------------------------
       match schedule styles 
@@ -155,12 +184,14 @@ nav li a {
   padding: 50px;
   margin-bottom: 60px;
 }
+
 .container-title {
   width: 360px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .container-title h1 {
   color: #fff;
   font-size: 52px;
@@ -169,26 +200,29 @@ nav li a {
 }
 
 .container-title a {
-  color: rgb(71, 3, 15,0.8);
+  color: rgb(71, 3, 15, 0.8);
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 8px;
 }
+
 .container-title i {
-  color: rgb(71, 3, 15,0.8);
+  color: rgb(71, 3, 15, 0.8);
   cursor: pointer;
 }
-.container-title > a:hover + i {
 
+.container-title>a:hover+i {
   transform: translate(5px, 0);
 }
+
 .matches {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
   color: #fff;
 }
+
 .versus {
   font-size: 20px;
   font-weight: bolder;
@@ -204,24 +238,29 @@ nav li a {
     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 .match h2 {
   font-size: 32px;
   font-weight: bold;
 }
+
 .clubs {
   display: flex;
   align-items: center;
 }
+
 .club-name {
   font-size: 20px;
   text-align: center;
   font-family: helvetica;
 }
+
 hr {
   width: 200px;
   border: 3px solid gray;
   margin: 0 20px;
 }
+
 .venue-name-and-time {
   display: block;
   text-align: center;
@@ -232,30 +271,38 @@ hr {
   ----- -------------------------*/
 
 .player-comment {
+
   background-image: url(images/football-player.png);
-  background-size: 50%;
+  background-size: 40%;
+  background-position: 120px 0;
   background-repeat: no-repeat;
-  height: 600px;
+
+
 }
+
 .comment {
   margin: 10% 0 0 50%;
 }
+
 .comment span {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: gray;
 }
+
 .comment h1 {
   color: rgb(168, 91, 36);
   font-size: 50px;
   margin-top: 0;
 }
+
 .comment p {
   color: #808080;
   font-size: 16px;
   margin-bottom: 30px;
 }
+
 .comment a {
   color: #fff;
   padding: 10px 20px;
@@ -263,47 +310,40 @@ hr {
   text-decoration: none;
 }
 
-
-
 /*----------------------- 
     highlights styles
 ----------------------- */
 
-
-
-.highlights{
+.highlights {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   grid-column-gap: 66px;
-  margin: 80px 150px;
-
-}
-.highlights-details h1{
-      font-size: 48px;
-      line-height: 60px;
-}
-.highlights-details p{
-  color: #6C6C6C;
-      font-size: 16px;
-      line-height: 28px;
-}
-.highlights img{
-    width: 567px;
-    height: 427px;
-
+  margin: 100px 150px;
 }
 
+.highlights-details h1 {
+  font-size: 48px;
+  line-height: 60px;
+}
 
+.highlights-details p {
+  color: #6c6c6c;
+  font-size: 16px;
+  line-height: 28px;
+}
 
-
+.highlights img {
+  width: 567px;
+  height: 427px;
+  margin-top: 20px;
+}
 
 /*----------------------- 
      footer area styels
 ----------------------- */
 
 footer {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -316,6 +356,7 @@ footer {
   align-items: center;
   margin: 20px 0;
 }
+
 .social-icons a {
   height: 32px;
   width: 32px;
@@ -326,23 +367,61 @@ footer {
   position: relative;
   margin-left: 14px;
 }
+
 .fab {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .copyright-text p {
   color: #000;
   font-size: 18px;
   line-height: 24px;
   margin: 0;
 }
+
 /*--------------------------------
    medai quaries for mobile devices
   ----- -------------------------*/
 
 @media only screen and (max-width: 668px) {
+
+  nav {
+    display: none;
+  }
+
+
+  /* banner-area style for mobile devices */
+
+  header {
+    width: 100%;
+  }
+
+  .banner-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .banner-title {
+    margin-left: 20px;
+  }
+
+  .banner-title h1 {
+    font-size: 32px;
+  }
+
+  .banner-photo {
+    margin: 50px 15px 60px 15px;
+  }
+
+  .banner-photo img {
+    margin: 0;
+    width: 100%;
+  }
+
   /* player list styles  */
 
   .player-list {
@@ -352,65 +431,68 @@ footer {
     margin-top: 47px;
     margin-bottom: 60px;
   }
+
   .player {
     margin: 12px 15px;
   }
 
-  /* banner-area style  */
-
-  header {
-    width: 100%;
-  }
-  .banner-area {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0;
-  }
-  .banner-title {
-    margin-left: 20px;
-  }
-  .banner-title h1 {
-    font-size: 32px;
-  }
-  .banner-photo {
-    margin: 50px 15px 60px 15px;
-  }
-  .banner-photo img {
-    margin: 0;
-    width: 100%;
-  }
-
-  nav {
-    display: none;
-  }
-
-  /* match schedule styles  */
+  /* match schedule styles  for mobile devices*/
 
   .match-schedule-container {
     width: 100%;
     padding: 0;
     margin: 0;
   }
+
   .container-title h1 {
     margin: 20px;
   }
+
   .container-title i {
     margin-right: 10px;
   }
+
   .matches {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     color: #fff;
   }
+
   .match {
     margin: 20px;
   }
 
-  /* player comment media quaries */
 
+  /* highlights media quries for mobile devices*/
+
+  .highlights {
+    width: 330px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 60px 16px;
+  }
+
+  .highlights-details h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .highlights-details p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .highlights img {
+    width: 328px;
+    height: 248px;
+    margin-top: 30px;
+  }
+
+  /* player comment media quaries for mobile devices */
 
   .player-comment {
-    
+    background-size: 60%;
+    background-position: -10px 40px;
     background-repeat: no-repeat;
     height: 350px;
   }
@@ -418,46 +500,24 @@ footer {
   .comment span {
     font-size: 12px;
   }
+
   .comment h1 {
     font-size: 24px;
   }
+
   .comment p {
     font-size: 12px;
   }
 
+  /* footer area media queries for mobile devices*/
 
-   /* footer area media quries */
+  footer {
+    margin-top: 100px;
+  }
 
-
-  .highlights{
-  width: 330px;
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  margin: 60px 16px;
-}
-.highlights-details h1{
-    font-size: 30px;
-    line-height: 40px;
-}
-.highlights-details p{
- 
-    font-size: 16px;
-   line-height: 28px;
-}
-.highlights img{
-  width: 328px;
-  height: 248px;
-  margin-top: 30px;
-}
-
-
-/* footer area media queries */
-
-
- footer img {
-   width: 210px;
+  footer img {
+    width: 210px;
     height: 48px;
-    
   }
 }
 
@@ -466,10 +526,13 @@ footer {
   ----- -------------------------*/
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+
+
   nav {
     display: none;
   }
-  /* player list styles  */
+
+  /* player list styles for tablet devices  */
 
   .player-list {
     display: grid;
@@ -477,74 +540,115 @@ footer {
     margin-top: 47px;
     margin-bottom: 60px;
   }
+
   .player {
     margin-bottom: 24px;
   }
+
   header {
     width: 100%;
   }
+
   .banner-area {
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
   }
+
   .banner-title {
     margin-left: 20px;
   }
+
   .banner-title h1 {
     color: #fff;
     font-size: 36px;
     margin-top: 60px;
   }
+
   .watch-live-button {
     margin: 60px auto;
   }
+
   .banner-photo {
     margin: 50px 0;
   }
+
   .banner-photo img {
     margin: 0;
   }
 
-  /* match schedule styels  */
+  /* match schedule styels for tablet devices  */
 
   .match-schedule-container {
     width: 100%;
     padding: 0;
   }
+
   .container-title h1 {
     margin: 40px;
   }
+
   .container-title i {
     margin-right: 10px;
   }
+
   .matches {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
   }
+
   .match {
     margin: 20px;
   }
 
-   .highlights{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
 
-  margin: 60px 80px;
-}
-.highlights-details h1{
+  /* highlights media quaries  for tablet devices */
+
+
+
+  .highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    margin: 60px 80px;
+  }
+
+  .highlights-details h1 {
     font-size: 40px;
     line-height: 1;
-}
-.highlights-details p{
+  }
+
+  .highlights-details p {
     font-size: 16px;
-   
-}
-.highlights img{
-  width: 100%;
-  height: 300px;
-  margin-top: 30px;
-}
+  }
+
+  .highlights img {
+    width: 100%;
+    height: 360px;
+    margin-top: 30px;
+  }
+
+
+  /* player comment media quaries for tablet devices */
+
+  .player-comment {
+    background-size: 40%;
+    background-position: 65px 40px;
+    background-repeat: no-repeat;
+    height: 350px;
+  }
+
+  .comment span {
+    font-size: 12px;
+  }
+
+  .comment h1 {
+    font-size: 24px;
+  }
+
+  .comment p {
+    font-size: 12px;
+  }
 }

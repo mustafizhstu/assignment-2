@@ -451,6 +451,7 @@ main{
   }
 
   .container-title h1 {
+    margin-top: 15px;
     margin-left: 10px;
   }
 
@@ -471,7 +472,9 @@ main{
     margin-bottom:30px;
   }
 
-
+  .versus{
+    margin: 15px;
+  }
   /* highlights media quries for mobile devices*/
 
   .highlights {

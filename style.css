@@ -303,8 +303,8 @@ hr {
 .club-info {
 
   background-image: url(images/football-player.png);
-  background-size: 36%;
-  background-position: 160px 0;
+  background-size: 33%;
+  background-position: 220px 0;
   background-repeat: no-repeat;
 
 
@@ -352,10 +352,7 @@ footer {
   align-items: center;
   margin-bottom: 63px;
 }
-.footer-logo{
-  height: 50px;
-  width:220px
-}
+
 .social-icons {
   display: flex;
   justify-content: center;
